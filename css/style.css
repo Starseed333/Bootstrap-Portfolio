@@ -1,0 +1,42 @@
+body {
+	 background-image: url(../images/background.png);
+}
+
+.page-header {
+	color: #4aaaa5;
+}
+
+.navbar-header {
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+h5 {
+	color: #4aaaa5;
+}
+
+
+h2 {
+	color: #4aaaa5;
+}
+
+
+.panel 
+.thumbnail{
+	background-color: #ffffff;
+}
+
+
+.btn-group{
+	padding: 75px;
+	margin: 20px;
+}
+
+
+footer {
+	background-color: #666666;
+	border-style: solid;
+	border-color: #4aaaa5;
+	padding: 25px;
+	border-width: 10px;
+}
