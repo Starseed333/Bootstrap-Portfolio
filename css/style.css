@@ -24,6 +24,7 @@ h2 {
 .panel 
 .thumbnail{
 	background-color: #ffffff;
+	margin-bottom: 50px;
 }
 
 
@@ -37,6 +38,32 @@ footer {
 	background-color: #666666;
 	border-style: solid;
 	border-color: #4aaaa5;
-	padding: 25px;
 	border-width: 10px;
+	padding: 25px;
+	position: static;
+}
+
+
+
+@media screen and (max-width: 640px){
+
+
+
+	h1 {
+		text-align: center;
+	}
+
+
+	h5 {
+		text-align: center;
+	}
+
+	
+	footer {
+		position: static;
+		bottom: 0;
+		width: 100%;
+	}
+
+
 }
